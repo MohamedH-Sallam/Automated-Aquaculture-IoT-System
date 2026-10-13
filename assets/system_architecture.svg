@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="880" viewBox="0 0 1400 880">
+<defs><style>
+.title{font:700 32px Arial,sans-serif;fill:#10243a}.subtitle{font:16px Arial,sans-serif;fill:#53657a}
+.label{font:700 19px Arial,sans-serif;fill:#10243a}.body{font:15px Arial,sans-serif;fill:#35485d}
+.box{fill:#fff;stroke:#aab8c8;stroke-width:2;rx:18}.sensor{fill:#eaf4fb;stroke:#4285a5;stroke-width:2;rx:16}.actuator{fill:#eef6ed;stroke:#6c9869;stroke-width:2;rx:16}.control{fill:#f0edfb;stroke:#8a79c7;stroke-width:2;rx:16}.mobile{fill:#fff3e5;stroke:#d59a4a;stroke-width:2;rx:16}.line{fill:none;stroke:#5b6f84;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.dash{stroke-dasharray:8 7}
+</style><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L8,3 L0,6 Z" fill="#5b6f84"/></marker></defs>
+<rect width="1400" height="880" fill="#f7f9fc" rx="24"/>
+<text x="60" y="62" class="title">Automated aquaculture feedback system</text>
+<text x="60" y="94" class="subtitle">Reconstructed from the March 2023 project report. The original prototype used an Arduino UNO R3 and local Bluetooth telemetry.</text>
+<rect x="500" y="145" width="400" height="112" class="control"/>
+<text x="700" y="184" text-anchor="middle" class="label">Arduino UNO R3</text><text x="700" y="214" text-anchor="middle" class="body">Sensor readings, control decisions, timing</text>
+<rect x="70" y="145" width="310" height="112" class="sensor"/><text x="225" y="184" text-anchor="middle" class="label">Water sensing</text><text x="225" y="214" text-anchor="middle" class="body">pH probe and DS18B20</text>
+<path d="M380 201 H490" class="line" marker-end="url(#arrow)"/><text x="435" y="185" text-anchor="middle" class="body">Measurements</text>
+<rect x="1020" y="145" width="310" height="112" class="mobile"/><text x="1175" y="184" text-anchor="middle" class="label">Mobile monitoring</text><text x="1175" y="214" text-anchor="middle" class="body">Flutter app via HC 05 Bluetooth</text>
+<path d="M900 201 H1010" class="line" marker-end="url(#arrow)"/><text x="955" y="185" text-anchor="middle" class="body">Serial data</text>
+<rect x="65" y="345" width="390" height="145" class="actuator"/><text x="260" y="383" text-anchor="middle" class="label">pH regulation</text><text x="260" y="415" text-anchor="middle" class="body">Stepper driven syringe pump</text><text x="260" y="442" text-anchor="middle" class="body">0.01 M KOH dosing</text><text x="260" y="467" text-anchor="middle" class="body">Probe stored in 4.0 M KCl</text>
+<rect x="505" y="345" width="390" height="145" class="actuator"/><text x="700" y="383" text-anchor="middle" class="label">Temperature regulation</text><text x="700" y="415" text-anchor="middle" class="body">Relay controlled aquarium heater</text><text x="700" y="442" text-anchor="middle" class="body">Target range 27 to 30 °C</text><text x="700" y="467" text-anchor="middle" class="body">Aeration improves heat mixing</text>
+<rect x="945" y="345" width="390" height="145" class="actuator"/><text x="1140" y="383" text-anchor="middle" class="label">Water treatment and reuse</text><text x="1140" y="415" text-anchor="middle" class="body">Three pumps, filter paper</text><text x="1140" y="442" text-anchor="middle" class="body">Activated carbon filtration</text><text x="1140" y="467" text-anchor="middle" class="body">Target TSS below 100 mg/L</text>
+<path d="M650 257 V300 H260 V335" class="line" marker-end="url(#arrow)"/><path d="M700 257 V335" class="line" marker-end="url(#arrow)"/><path d="M750 257 V300 H1140 V335" class="line" marker-end="url(#arrow)"/>
+<rect x="180" y="585" width="1040" height="95" class="box"/><text x="700" y="622" text-anchor="middle" class="label">Aquarium and aeration</text><text x="700" y="651" text-anchor="middle" class="body">21 L prototype tank for Nile tilapia; aerator supports oxygenation and mixing</text>
+<path d="M260 490 V535 H430 V575" class="line" marker-end="url(#arrow)"/><path d="M700 490 V575" class="line" marker-end="url(#arrow)"/><path d="M1140 490 V535 H970 V575" class="line" marker-end="url(#arrow)"/>
+<rect x="180" y="730" width="1040" height="80" class="box"/><text x="700" y="764" text-anchor="middle" class="label">Automated feeding</text><text x="700" y="790" text-anchor="middle" class="body">Servo operated dispenser for pellets and dried alfalfa</text>
+<path d="M700 680 V720" class="line dash" marker-end="url(#arrow)"/>
+<text x="60" y="850" class="subtitle">This diagram summarizes the documented design. It does not imply cloud connectivity, AI control, or unreported sensor coverage.</text>
+</svg>

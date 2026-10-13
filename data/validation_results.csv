@@ -1,0 +1,4 @@
+parameter,target,reported_initial,reported_final,reported_response_time,reported_stability_window,notes
+Total suspended solids,Below 100 mg/L,178 ± 1 mg/L,65 ± 1 mg/L,Not reported,Not reported,Removal efficiency 63.5 ± 1.48 percent
+pH,7 to 8,6.0 ± 0.2 disturbance,7.0 ± 0.1 reached,1.2 ± 0.1 min,2.6 ± 0.2 min between 7.0 and 7.5,3.15 ± 0.05 mL of 0.01 M KOH reported
+Water temperature,27 to 30 °C,23.9 ± 0.5 °C disturbance,28.0 ± 0.1 °C reached,12.3 ± 0.1 min,6.5 ± 0.2 min between 28.0 and 28.4 °C,Aerator was operating during the reported recovery test
