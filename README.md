@@ -52,29 +52,97 @@ Original response graphs are also preserved from the report: [pH regulation resp
 
 ## Engineering evidence
 
+The figures below use fixed display widths and centered image containers to keep the documentation aligned across GitHub's desktop and mobile layouts.
+
 ### Prototype design
 
-![Original prototype design](assets/prototype_design.jpg)
+<p align="center">
+  <img src="assets/prototype_design.jpg" alt="Original prototype design" width="720">
+</p>
 
-### Controller wiring
+### System architecture and controller wiring
 
-![Arduino wiring diagram](assets/arduino_wiring_diagram.png)
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <strong>System architecture</strong><br><br>
+      <img src="assets/system_architecture.svg" alt="System architecture" width="100%">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <strong>Arduino wiring diagram</strong><br><br>
+      <img src="assets/arduino_wiring_diagram.png" alt="Arduino wiring diagram" width="100%">
+    </td>
+  </tr>
+</table>
 
-### Physical mechanisms
+### Physical prototype and mechanisms
 
-| Water treatment | Automated feeding | Syringe dosing mechanism |
-|:|:|:|
-| ![Water treatment](assets/water_treatment_filter_photo.jpg) | ![Automated feeder](assets/automated_feeder_photo.jpg) | ![Syringe pump](assets/syringe_pump_photo.jpg) |
+<table>
+  <tr>
+    <td align="center" valign="top" width="33%">
+      <strong>Water treatment</strong><br><br>
+      <img src="assets/water_treatment_filter_photo.jpg" alt="Water treatment filter" width="100%">
+    </td>
+    <td align="center" valign="top" width="33%">
+      <strong>Automated feeder</strong><br><br>
+      <img src="assets/automated_feeder_photo.jpg" alt="Automated feeding mechanism" width="100%">
+    </td>
+    <td align="center" valign="top" width="33%">
+      <strong>Syringe dosing</strong><br><br>
+      <img src="assets/syringe_pump_photo.jpg" alt="Syringe pump dosing mechanism" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <strong>Prototype container</strong><br><br>
+      <img src="assets/prototype_container_photo.jpg" alt="Aquaculture prototype container" width="100%">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <strong>Heater arrangement</strong><br><br>
+      <img src="assets/aquarium_heater_photo.jpg" alt="Aquarium heater" width="100%">
+    </td>
+  </tr>
+</table>
 
-| Prototype container | Heater arrangement |
-|:|:|
-| ![Prototype container](assets/prototype_container_photo.jpg) | ![Aquarium heater](assets/aquarium_heater_photo.jpg) |
+### Mobile monitoring interface
 
-### Mobile monitoring
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <strong>System status screen</strong><br><br>
+      <img src="assets/mobile_app_monitor_screen.jpg" alt="Mobile app system status screen" width="320">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <strong>Monitoring dashboard</strong><br><br>
+      <img src="assets/mobile_app_dashboard.jpg" alt="Mobile app monitoring dashboard" width="320">
+    </td>
+  </tr>
+</table>
 
-| System status screen | Monitoring dashboard |
-|:|:|
-| ![Mobile app monitor screen](assets/mobile_app_monitor_screen.jpg) | ![Mobile app dashboard](assets/mobile_app_dashboard.jpg) |
+### Validation plots
+
+<table>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <strong>pH regulation response</strong><br><br>
+      <img src="assets/ph_regulation_response.png" alt="pH regulation response plot" width="100%">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <strong>Temperature regulation response</strong><br><br>
+      <img src="assets/temperature_regulation_response.png" alt="Temperature regulation response plot" width="100%">
+    </td>
+  </tr>
+  <tr>
+    <td align="center" valign="top" width="50%">
+      <strong>Temperature response without aeration</strong><br><br>
+      <img src="assets/temperature_without_aerator.png" alt="Temperature response without aeration plot" width="100%">
+    </td>
+    <td align="center" valign="top" width="50%">
+      <strong>Reported test summary</strong><br><br>
+      <img src="assets/reported_test_summary.png" alt="Reported test summary chart" width="100%">
+    </td>
+  </tr>
+</table>
 
 The source report shows a Flutter interface and an HC 05 connection. It does not establish cloud telemetry or remote internet control.
 
